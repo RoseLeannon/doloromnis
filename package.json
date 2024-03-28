@@ -1,0 +1,62 @@
+{
+  "name": "doloromnis",
+  "version": "1.0.0",
+  "description": "A simple JavaScript interface to DXF written in TypeScript.",
+  "main": "lib/DXFWriter.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoseLeannon/doloromnis.git"
+  },
+  "author": "TyreseWalker",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "watch": "tsc -w",
+    "build": "yarn test && rollup -c",
+    "example": "node --experimental-specifier-resolution=node examples/example.js"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.31",
+    "@wessberg/rollup-plugin-ts": "^1.3.8",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "rollup": "^2.40.0",
+    "ts-jest": "^26.5.3",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.2"
+  },
+  "keywords": [
+    "javascript",
+    "omnis",
+    "dolorem",
+    "js",
+    "geometry",
+    "write",
+    "voluptate",
+    "draw",
+    "cad",
+    "consequatur",
+    "aut",
+    "polyline",
+    "arc",
+    "rectangle",
+    "ut",
+    "labore",
+    "optio",
+    "ellipse",
+    "librecad",
+    "ut"
+  ],
+  "bugs": {
+    "url": "https://github.com/RoseLeannon/doloromnis.git/issues"
+  }
+}
